@@ -1,0 +1,14 @@
+Source: zimbra-proxy
+Section: mail
+Priority: optional
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Uploaders: Enrico Weigelt, metux IT consult <info@metux.net>
+
+Package: zimbra-proxy
+Section: mail
+Priority: optional
+Architecture: any
+Depends: zimbra-core, zimbra-proxy-components, zimbra-memcached, ${shlibs:Depends}, ${misc:Depends}
+Description: LibreZimbra spell check
